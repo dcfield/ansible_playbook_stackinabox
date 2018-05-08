@@ -42,7 +42,7 @@ web1 ansible_ssh_host=openstack.stackinabox.io ansible_ssh_user=demo ansible_ssh
 ## /sample_playbook.yaml
 Now, let's create our yaml file that will contain all tasks for ansible to perform.
 
-- *Note: Be careful with indentation in yaml files. You must be precise with your spaces!*
+*Note: Be careful with indentation in yaml files. You must be precise with your spaces!*
 
 ### Ansible basics
 - First, we begin the file with `---`
