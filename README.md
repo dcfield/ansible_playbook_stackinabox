@@ -103,7 +103,7 @@ Now, let's create our yaml file that will contain all tasks for ansible to perfo
 ````
 
 ### Final file
-- Our final file will look like this:
+- Our final `sample_playbook.yaml` file will look like this:
 ````
 ---
 # Sample ansible playbook
