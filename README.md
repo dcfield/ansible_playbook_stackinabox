@@ -173,3 +173,6 @@ web1                        : ok=2    changed=2    unreachable=0    failed=0
 
 ## Check
 Go to `http://openstack.stackinabox.io/dashboard/project/images` and check to see if your cirros image has been uploaded. Congrats!
+
+## Demo files
+Download the demo files and use `ansible-playbook sample_ansible_playbook.yaml` to run the ansible playbook.
