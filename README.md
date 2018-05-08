@@ -1,4 +1,4 @@
-# Ansible Playbook on Openstack Tutorial
+# Ansible Playbook Tutorial with Openstack
 This tutorial goes through how to create an ansible playbook and run some basic commands on an instance of stackinabox.
 We will use ansible to install some dependencies in order to download and upload to openstack a cirros image.
 
