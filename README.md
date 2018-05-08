@@ -15,7 +15,7 @@ inventory
 sample_playbook.yaml
 ````
 
-## `ansible.cfg`
+## /ansible.cfg
 - This file has some basic configurations
 ````
 [defaults]
@@ -28,7 +28,7 @@ ssh_args = -o ControlMaster=no
 - The main thing to worry about here is our `hostfile=inventory`
 - This will map our host definitions to our `inventory` file
 
-## `inventory`
+## /inventory
 - Here, we define our host, username and password for the openstack machine
 - If you have downloaded and started stackinabox, your details will be as follows
 ````
@@ -39,7 +39,7 @@ web1 ansible_ssh_host=openstack.stackinabox.io ansible_ssh_user=demo ansible_ssh
 - `ansible_ssh_user` is your login username for openstack
 - `ansible_ssh_pass` is your login password for openstack
 
-## `sample_playbook.yaml`
+## /sample_playbook.yaml
 Now, let's create our yaml file that will contain all tasks for ansible to perform.
 
 - *Note: Be careful with indentation in yaml files. You must be precise with your spaces!*
