@@ -46,7 +46,7 @@ Now, let's create our yaml file that will contain all tasks for ansible to perfo
 
 ### Ansible basics
 - First, we begin the file with `---`
-- Next, define the hosts. From our `inventory` file, we named our host `web1`
+- Next, define the hosts. From our `inventory` file, we named our host `web1` \n
 `- hosts: web1`
 - We want to use sudo priviledges, so set `sudo: yes`
 
